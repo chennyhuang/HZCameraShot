@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0064D81B5DD58D00B0EF19 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0064D71B5DD58D00B0EF19 /* AVFoundation.framework */; };
+		EE0064DB1B5DDD9A00B0EF19 /* HZCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0064DA1B5DDD9A00B0EF19 /* HZCameraViewController.m */; };
+		EE0064E11B5E264200B0EF19 /* UIImage+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0064E01B5E264200B0EF19 /* UIImage+Custom.m */; };
+		EEA2A4D11B5FAFAC00CB3FCA /* HZSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA2A4CD1B5FAFAC00CB3FCA /* HZSlider.m */; };
+		EEA2A4D21B5FAFAC00CB3FCA /* HZSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA2A4CF1B5FAFAC00CB3FCA /* HZSliderView.m */; };
+		EEA2A4D31B5FAFAC00CB3FCA /* HZSliderViewBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEA2A4D01B5FAFAC00CB3FCA /* HZSliderViewBundle.bundle */; };
+		EEF6779E1B5CAD8F001BF149 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF6779D1B5CAD8F001BF149 /* main.m */; };
+		EEF677A11B5CAD8F001BF149 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF677A01B5CAD8F001BF149 /* AppDelegate.m */; };
+		EEF677A41B5CAD8F001BF149 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF677A31B5CAD8F001BF149 /* ViewController.m */; };
+		EEF677A71B5CAD8F001BF149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF677A51B5CAD8F001BF149 /* Main.storyboard */; };
+		EEF677A91B5CAD8F001BF149 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF677A81B5CAD8F001BF149 /* Images.xcassets */; };
+		EEF677AC1B5CAD8F001BF149 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF677AA1B5CAD8F001BF149 /* LaunchScreen.xib */; };
+		EEF677B81B5CAD90001BF149 /* HZCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF677B71B5CAD90001BF149 /* HZCameraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEF677B21B5CAD90001BF149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF677901B5CAD8F001BF149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEF677971B5CAD8F001BF149;
+			remoteInfo = HZCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE0064D71B5DD58D00B0EF19 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EE0064D91B5DDD9A00B0EF19 /* HZCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZCameraViewController.h; sourceTree = "<group>"; };
+		EE0064DA1B5DDD9A00B0EF19 /* HZCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCameraViewController.m; sourceTree = "<group>"; };
+		EE0064DF1B5E264200B0EF19 /* UIImage+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Custom.h"; sourceTree = "<group>"; };
+		EE0064E01B5E264200B0EF19 /* UIImage+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Custom.m"; sourceTree = "<group>"; };
+		EEA2A4CC1B5FAFAC00CB3FCA /* HZSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZSlider.h; sourceTree = "<group>"; };
+		EEA2A4CD1B5FAFAC00CB3FCA /* HZSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZSlider.m; sourceTree = "<group>"; };
+		EEA2A4CE1B5FAFAC00CB3FCA /* HZSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZSliderView.h; sourceTree = "<group>"; };
+		EEA2A4CF1B5FAFAC00CB3FCA /* HZSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZSliderView.m; sourceTree = "<group>"; };
+		EEA2A4D01B5FAFAC00CB3FCA /* HZSliderViewBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HZSliderViewBundle.bundle; sourceTree = "<group>"; };
+		EEF677981B5CAD8F001BF149 /* HZCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF6779C1B5CAD8F001BF149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF6779D1B5CAD8F001BF149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEF6779F1B5CAD8F001BF149 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEF677A01B5CAD8F001BF149 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEF677A21B5CAD8F001BF149 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEF677A31B5CAD8F001BF149 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEF677A61B5CAD8F001BF149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEF677A81B5CAD8F001BF149 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEF677AB1B5CAD8F001BF149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EEF677B11B5CAD90001BF149 /* HZCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF677B61B5CAD90001BF149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF677B71B5CAD90001BF149 /* HZCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZCameraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEF677951B5CAD8F001BF149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0064D81B5DD58D00B0EF19 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF677AE1B5CAD90001BF149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEA2A4CB1B5FAFAC00CB3FCA /* HZSliderView */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2A4CC1B5FAFAC00CB3FCA /* HZSlider.h */,
+				EEA2A4CD1B5FAFAC00CB3FCA /* HZSlider.m */,
+				EEA2A4CE1B5FAFAC00CB3FCA /* HZSliderView.h */,
+				EEA2A4CF1B5FAFAC00CB3FCA /* HZSliderView.m */,
+				EEA2A4D01B5FAFAC00CB3FCA /* HZSliderViewBundle.bundle */,
+			);
+			path = HZSliderView;
+			sourceTree = "<group>";
+		};
+		EEF6778F1B5CAD8F001BF149 = {
+			isa = PBXGroup;
+			children = (
+				EE0064D71B5DD58D00B0EF19 /* AVFoundation.framework */,
+				EEF6779A1B5CAD8F001BF149 /* HZCamera */,
+				EEF677B41B5CAD90001BF149 /* HZCameraTests */,
+				EEF677991B5CAD8F001BF149 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEF677991B5CAD8F001BF149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF677981B5CAD8F001BF149 /* HZCamera.app */,
+				EEF677B11B5CAD90001BF149 /* HZCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF6779A1B5CAD8F001BF149 /* HZCamera */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2A4CB1B5FAFAC00CB3FCA /* HZSliderView */,
+				EE0064DF1B5E264200B0EF19 /* UIImage+Custom.h */,
+				EE0064E01B5E264200B0EF19 /* UIImage+Custom.m */,
+				EEF6779F1B5CAD8F001BF149 /* AppDelegate.h */,
+				EEF677A01B5CAD8F001BF149 /* AppDelegate.m */,
+				EEF677A21B5CAD8F001BF149 /* ViewController.h */,
+				EEF677A31B5CAD8F001BF149 /* ViewController.m */,
+				EE0064D91B5DDD9A00B0EF19 /* HZCameraViewController.h */,
+				EE0064DA1B5DDD9A00B0EF19 /* HZCameraViewController.m */,
+				EEF677A51B5CAD8F001BF149 /* Main.storyboard */,
+				EEF677A81B5CAD8F001BF149 /* Images.xcassets */,
+				EEF677AA1B5CAD8F001BF149 /* LaunchScreen.xib */,
+				EEF6779B1B5CAD8F001BF149 /* Supporting Files */,
+			);
+			path = HZCamera;
+			sourceTree = "<group>";
+		};
+		EEF6779B1B5CAD8F001BF149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEF6779C1B5CAD8F001BF149 /* Info.plist */,
+				EEF6779D1B5CAD8F001BF149 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEF677B41B5CAD90001BF149 /* HZCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEF677B71B5CAD90001BF149 /* HZCameraTests.m */,
+				EEF677B51B5CAD90001BF149 /* Supporting Files */,
+			);
+			path = HZCameraTests;
+			sourceTree = "<group>";
+		};
+		EEF677B51B5CAD90001BF149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEF677B61B5CAD90001BF149 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEF677971B5CAD8F001BF149 /* HZCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF677BB1B5CAD90001BF149 /* Build configuration list for PBXNativeTarget "HZCamera" */;
+			buildPhases = (
+				EEF677941B5CAD8F001BF149 /* Sources */,
+				EEF677951B5CAD8F001BF149 /* Frameworks */,
+				EEF677961B5CAD8F001BF149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZCamera;
+			productName = HZCamera;
+			productReference = EEF677981B5CAD8F001BF149 /* HZCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEF677B01B5CAD90001BF149 /* HZCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF677BE1B5CAD90001BF149 /* Build configuration list for PBXNativeTarget "HZCameraTests" */;
+			buildPhases = (
+				EEF677AD1B5CAD90001BF149 /* Sources */,
+				EEF677AE1B5CAD90001BF149 /* Frameworks */,
+				EEF677AF1B5CAD90001BF149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEF677B31B5CAD90001BF149 /* PBXTargetDependency */,
+			);
+			name = HZCameraTests;
+			productName = HZCameraTests;
+			productReference = EEF677B11B5CAD90001BF149 /* HZCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEF677901B5CAD8F001BF149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = eamon;
+				TargetAttributes = {
+					EEF677971B5CAD8F001BF149 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EEF677B01B5CAD90001BF149 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EEF677971B5CAD8F001BF149;
+					};
+				};
+			};
+			buildConfigurationList = EEF677931B5CAD8F001BF149 /* Build configuration list for PBXProject "HZCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEF6778F1B5CAD8F001BF149;
+			productRefGroup = EEF677991B5CAD8F001BF149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEF677971B5CAD8F001BF149 /* HZCamera */,
+				EEF677B01B5CAD90001BF149 /* HZCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEF677961B5CAD8F001BF149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF677A71B5CAD8F001BF149 /* Main.storyboard in Resources */,
+				EEF677AC1B5CAD8F001BF149 /* LaunchScreen.xib in Resources */,
+				EEF677A91B5CAD8F001BF149 /* Images.xcassets in Resources */,
+				EEA2A4D31B5FAFAC00CB3FCA /* HZSliderViewBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF677AF1B5CAD90001BF149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEF677941B5CAD8F001BF149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA2A4D21B5FAFAC00CB3FCA /* HZSliderView.m in Sources */,
+				EEF677A41B5CAD8F001BF149 /* ViewController.m in Sources */,
+				EE0064DB1B5DDD9A00B0EF19 /* HZCameraViewController.m in Sources */,
+				EEA2A4D11B5FAFAC00CB3FCA /* HZSlider.m in Sources */,
+				EEF677A11B5CAD8F001BF149 /* AppDelegate.m in Sources */,
+				EE0064E11B5E264200B0EF19 /* UIImage+Custom.m in Sources */,
+				EEF6779E1B5CAD8F001BF149 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF677AD1B5CAD90001BF149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF677B81B5CAD90001BF149 /* HZCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEF677B31B5CAD90001BF149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEF677971B5CAD8F001BF149 /* HZCamera */;
+			targetProxy = EEF677B21B5CAD90001BF149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEF677A51B5CAD8F001BF149 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF677A61B5CAD8F001BF149 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEF677AA1B5CAD8F001BF149 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF677AB1B5CAD8F001BF149 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEF677B91B5CAD90001BF149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEF677BA1B5CAD90001BF149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEF677BC1B5CAD90001BF149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HZCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEF677BD1B5CAD90001BF149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HZCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEF677BF1B5CAD90001BF149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HZCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZCamera.app/HZCamera";
+			};
+			name = Debug;
+		};
+		EEF677C01B5CAD90001BF149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HZCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZCamera.app/HZCamera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEF677931B5CAD8F001BF149 /* Build configuration list for PBXProject "HZCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF677B91B5CAD90001BF149 /* Debug */,
+				EEF677BA1B5CAD90001BF149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF677BB1B5CAD90001BF149 /* Build configuration list for PBXNativeTarget "HZCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF677BC1B5CAD90001BF149 /* Debug */,
+				EEF677BD1B5CAD90001BF149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF677BE1B5CAD90001BF149 /* Build configuration list for PBXNativeTarget "HZCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF677BF1B5CAD90001BF149 /* Debug */,
+				EEF677C01B5CAD90001BF149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEF677901B5CAD8F001BF149 /* Project object */;
+}
